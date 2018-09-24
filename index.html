@@ -11,8 +11,8 @@
     <title>Bryan Lee - Development/Programming Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.css">
+    
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -62,7 +62,7 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase"><img class="circle shadow-lg" style="margin-right: 20px; border-radius:100px;" width="200px" src="./assets/img/Bryan.png">Bryan Lee</h1>
+          <h1 class="mx-auto my-0 text-uppercase"><img id="bryan-img" class="circle shadow-lg" style="margin-right: 20px; border-radius:100px;" width="200px" src="./assets/img/Bryan.png"><span id="name-header">Bryan Lee</span></h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">A Salt Lake City, Utah based web developer, graphic designer, digital marketer, and musician.</h2>
           <a href="#about" style="width:100%;" class="btn btn-primary js-scroll-trigger">About Me</a>
         </div>
@@ -108,54 +108,54 @@
             <br>
             <!-- Skill Icon Row One-->
             <div class="row text-black-50">
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/code-8x.png" alt="Web Development / Programming">
                 <p style="line-height:1; font-size: 12px;">Web Development + Programming</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/graph-8x.png" alt="SEM and Digital Display Advertising">
                 <p style="line-height:1; font-size: 12px;">SEM + Digital Display Advertising</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/eyedropper-8x.png" alt="Graphic / Content Design">
                 <p style="line-height:1; font-size: 12px;">Graphic + Content Design</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/crop-8x.png" alt="Photo Editing / Web Banner Design">
                 <p style="line-height:1; font-size: 12px;">Photo Editing + Web Banner Design</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/justify-center-8x.png" alt="RFP / Whitepaper Design">
                 <p style="line-height:1; font-size: 12px;">RFP + Whitepaper Design</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/thumb-up-8x.png" alt="Social Media Strategy and Management">
                 <p style="line-height:1; font-size: 12px;">Social Media Strategy + Management</p><br>
               </div>
             </div>
             <!-- Skill Icon Row Two-->
             <div class="row text-black-50">
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/microphone-8x.png" alt="Digital Audio Production and Editing">
                 <p style="line-height:1; font-size: 12px;">Digital Audio Production + Editing</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/camera-slr-8x.png" alt="Photography">
                 <p style="line-height:1; font-size: 12px;"><br>Photography</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/video-8x.png" alt="Videography and Video Editing">
                 <p style="line-height:1; font-size: 12px;">Videography<br> + <br>Video Editing</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/lightbulb-8x.png" alt="Creative and Collaborative Thinker">
                 <p style="line-height:1; font-size: 12px;">Creative + Collaborative Thinker</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/puzzle-piece-8x.png" alt="Logical Problem Solver">
                 <p style="line-height:1; font-size: 12px;">Logical Problem<br>Solver</p><br>
               </div>
-              <div class="col-md-4 col-sm-4 col-lg-2">
+              <div class="col-4 col-md-4 col-lg-2">
                 <img src="./assets/img/icons/target-8x.png" alt="Goal and Productivity Oriented">
                 <p style="line-height:1; font-size: 12px;">Goal + Productivity + Detail Oriented</p><br>
               </div>
@@ -166,37 +166,37 @@
             <!-- Skill Icon Row Three-->
             <p>Programming Languages + Development Tools</p><br>
             <div class="row text-black-50">
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/html5.png" alt="HTML5"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/css3.png" alt="CSS3"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/javascript.png" alt="JavaScript"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/jquery.png" alt="jQuery"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/bootstrap.png" alt="Twitter Bootstrap"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/google-analytics.png" alt="Google Analytics"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/wordpress.png" alt="Wordpress"><br>
                 </div>
-                <div class="col-md-3 col-sm-3 col-lg-3 col-xs-1">
+                <div class="col-3">
                   <img src="./assets/img/icons/firebase-icon.png" alt="Google Firebase"><br>
                 </div>
-                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-1">
+                <div class="col-4">
                   <img src="./assets/img/icons/materialize-logo.png" alt="Materialize"><br>
                 </div>
-                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-1">
+                <div class="col-4">
                   <img src="./assets/img/icons/datatablesjs-icon.png" alt="DataTables.js"><br>
                 </div>
-                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-1">
+                <div class="col-4">
                   <img src="./assets/img/icons/json.gif" alt="JSON/APIs"><br>
                 </div>
               </div>
@@ -206,40 +206,40 @@
             <!-- Skill Icon Row Four-->
             <p>Software + Tech</p><br>
             <div class="row text-black-50">
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/adobecc.jpeg" alt="Adobe Creative Cloud">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/illustrator.png" alt="Adobe Illustrator">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/photoshop.png" alt="Adobe Photoshop">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/indesign.png" alt="Adobe InDesign">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/vsc.png" alt="Visual Studio Code">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/github.png" alt="GitHub">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/fcpx.png" alt="Final Cut Pro X">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/logic.png" alt="Logic Pro X">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/slack.png" alt="Slack">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/office.png" alt="Microsoft Office">
                 </div>
-                <div class="col-lg-1 col-md-3 col-sm-4 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/chrome.png" alt="Google Chrome">
                 </div>
-                <div class="col-md-2 col-sm-4 col-lg-1 col-xs-4">
+                <div class="col-4 col-lg-3">
                   <img src="./assets/img/icons/adwords.png" alt="Google Adwords"><br>
                 </div>
               </div>
